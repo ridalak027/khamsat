@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* start of nav  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    color: rgb(68, 68, 68);
+    background-color: rgb(68, 68, 68);
+    z-index: 5;
+    position: sticky;
+    top: 0;
+}
+
+nav .left{
+    display: flex;
+    align-items: center;
+}
+
+nav .left .imglefts{
+    color: rgb(239, 239, 239);
+    padding: 20px;
+    font-size: 17px;
+    transition: all 0.2s ease;
+}
+
+nav .left .imglefts:hover{
+    background-color: rgb(136, 136, 136);
+}
+
+nav .left .imgleft img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+nav .right {
+    display: flex;
+    align-items: center;
+}
+
+nav .right div{
+    display: flex;
+    align-items: center;
+    transition: all 0.1s ease;
+    margin-right: 15px;
+}
+
+nav .right div:hover{
+    background-color: rgb(136, 136, 136);
+    height: 100%;
+}
+
+nav .right div a{
+    color: rgb(239, 239, 239);
+    margin-left: 8px;
+    margin-right: 3px;
+    font-size: 12px;
+}
+
+
+nav .right .iright{
+    color: rgb(239, 239, 239);
+    font-size: 15px;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+nav .right p{
+    color: rgb(239, 239, 239); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .right .imgright{
+    width: 150px;
+    height: 40px;
+}
+
+/* end of nav */
+
+.main  .close .firstimg{
+    background-image: url(image2/hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 570px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+
+.main  .close .firstimg div {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+
+.main  .close .firstimg div pre{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 7px;
+}
+
+.main  .close .firstimg div h5{
+    font-size: 23px;
+    margin-left: 100px;
+    color: rgb(136, 136, 136);
+}
+
+.main  .close .firstimg div input{
+    width: 800px;
+    height: 68px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-left: 60px;
+}
+
+.main  .close .firstimg div input:focus{
+    outline: none;
+      
+}
+
+.main  .close .firstimg div button{
+    background-color: rgb(69, 150, 44);
+    border: 1px solid rgb(69, 150, 44);
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    right: 60px;
+    top: 157px;
+}
+
+.main  .close .firstimg div p{
+    font-size: 20px;
+    color: grey;
+    position: absolute;
+    top: 175px;
+    left: 40px;
+}
+
+/* end of firstimg section */
+
+.main  .close div h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: px;
+    margin-top: 40px;
+}
+
+/* end of titel div */
+
+.main  .close .first4img{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.main  .close .first4img .two{
+    position: relative;
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: all 0.9s ease;
+}
+
+.main  .close .first4img .two:hover{
+    transform: scale(1.1);
+}
+
+.main  .close .first4img .two img{
+    width: 100%;
+    height: 100%; 
+    color: rgba(0, 0, 0.6);
+}
+
+.main  .close .first4img .two div{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0 , 0.4);
+    font-size: 23px;
+    color: white;
+}
+
+.main  .close .first4img .two div pre{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 90px;
+}
+
+/* end of first4img section */
+
+.main  .close .domainclass{
+    background-color: rgb(241, 241, 241);
+    height: 1600px;
+}
+
+.main  .close .domainclass .top{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main  .close .domainclass .top p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15px;
+    color: rgb(70, 70, 71);
+    margin-top: 100px;
+}
+
+.main  .close .domainclass .top button{
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(69, 150, 44);
+    color: rgb(69, 150, 44);
+    font-size: 15px;
+    height: 45px;
+    width: 65px;
+    transition: all 1s ease;
+    border-radius: 4px;
+    margin-top: 85px;
+    margin-left: 30px;
+}
+
+.main  .close .domainclass .top button:hover{
+    background-color: rgb(69, 150, 44);
+    color: white;
+    transform: scale(1.2);
+}
+
+.main  .close .domainclass .tops{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main  .close .domainclass .tops p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15px;
+    color: rgb(70, 70, 71);
+    margin-top: 50px;
+}
+
+.main  .close .domainclass .tops button{
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(69, 150, 44);
+    color: rgb(69, 150, 44);
+    font-size: 15px;
+    height: 45px;
+    width: 65px;
+    transition: all 1s ease;
+    border-radius: 4px;
+    margin-top: 44px;
+    margin-left: 30px;
+}
+
+.main  .close .domainclass .tops button:hover{
+    background-color: rgb(69, 150, 44);
+    color: white;
+    transform: scale(1.2);
+}
+
+.main  .close .domainclass .bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.main  .close .domainclass .bottom div{
+    position: relative;
+    margin: 10px 10px 15px 10px;
+    transition: all 0.9s ease;
+    padding: 0px 5px 25px 5px ;
+}
+
+.main  .close .domainclass .bottom div:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px grey;
+}
+
+.main  .close .domainclass .bottom .imgfirst{
+    height: 180px;
+    width: 300px;
+}
+
+.main  .close .domainclass .bottom .imgsecand{
+    position: absolute;
+    border: .5px solid white;
+    top: 135px;
+    left: 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.main  .close .domainclass .bottom a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.main  .close .domainclass .bottom a:hover{
+    color: rgb(135, 197, 115);
+}
+
+.main  .close .domainclass .bottom p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 7px;
+    text-align: end;
+    color: #777777;
+}
+
+.main  .close .domainclass .bottom ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+.main  .close .domainclass .bottom ul .icone{
+    font-size: 12px;
+    color: #fa9747;
+    margin: 1px;
+}
+
+.main  .close .domainclass .bottom ul .txt{
+    font-size: 14px;
+    color: #777777;
+    margin: 1px 8px 1px 1px;
+}
+
+.main  .close .domainclass .bottom h4{
+    text-align: end;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main  .close .domainclass .bottom h4 color{
+    color: black;
+}
+
+/* end of domainclass section */
+
+.main  .close .footer1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.main  .close .footer1 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(115, 115, 115);
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+.main  .close .footer1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(115, 115, 115);
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+
+.main  .close .footer1 .left div i{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.main  .close .footer1 div ul{
+    list-style-type: none;
+}
+
+.main  .close .footer1 div ul li{
+    margin-bottom: 25px;
+}
+
+.main  .close .footer1 div ul li a{
+    text-decoration: none;
+    color: rgb(127, 181, 118);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* end of footer1 section */
+
+.main  .close .footer2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 241);
+    padding: 30px 0px 30px 0px;
+}
+
+.main  .close .footer2 div{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main  .close .footer2 div pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.main  .close .footer2 div p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+/* end of footer2 */
+
+.main  .close .footer3{
+    margin-bottom: 80px;
+}
+
+.main  .close .footer3 .imgfooter{
+    text-align: center;
+}
+
+.main  .close .footer3 div img{
+    width: 140px;
+    height: 140px;
+}
+
+.main  .close .footer3 .firstline{
+    margin-right: 160px;
+    margin-bottom: 40px;
+}
+
+.main  .close .footer3 .firstline ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.main  .close .footer3 .firstline ul li{
+    margin-left: 25px;
+}
+
+/* end of footer3 */
+
+.main  .open{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 8;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    margin-top: 60px;
+}
